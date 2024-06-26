@@ -1,0 +1,6 @@
+mvn test verify -Dtest=bobchos.bar.api.cucumberOptions.RunnerTest
+
+mvn test -Dcucumber.options="--tags @PostOrderAPI"
+
+java -jar jenkins.war -httpPort=9090
+

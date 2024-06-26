@@ -1,0 +1,5 @@
+# Created at 2024-06-25T12:46:15.096
+Boot Manifest-JAR contains absolute paths in classpath 'S:\bobchos-bar-automation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

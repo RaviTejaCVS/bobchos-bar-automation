@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="bobchos.bar.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ErrorValidationTest(failed)">
+    <classes>
+      <class name="bobchos.bar.Test.ErrorValidationTest">
+        <methods>
+          <include name="assertQuantityFieldError"/>
+          <include name="assertSizeFieldError"/>
+          <include name="checkQuantityNegative"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- bobchos.bar.Test.ErrorValidationTest -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

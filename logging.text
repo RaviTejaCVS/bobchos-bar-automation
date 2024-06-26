@@ -1,0 +1,399 @@
+Request method:	DELETE
+Request URI:	http://bar.bagconsult.eu/api/Order/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	Order=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 Method Not Allowed
+Allow: GET, HEAD, OPTIONS, TRACE
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:26 GMT
+Content-Length: 1293
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>405 - HTTP verb used to access this page is not allowed.</title>
+    <style type="text/css">
+&lt;!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+--&gt;
+</style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Server Error</h1>
+    </div>
+    <div id="content">
+      <div class="content-container">
+        <fieldset>
+          <h2>405 - HTTP verb used to access this page is not allowed.</h2>
+          <h3>The page you are looking for cannot be displayed because an invalid method (HTTP verb) was used to attempt access.</h3>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
+Request method:	GET
+Request URI:	http://bar.bagconsult.eu/api/Order/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	Order=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:26 GMT
+Content-Length: 134
+
+{
+    "Id": 2,
+    "TypeId": 10,
+    "Quantity": 15,
+    "Name": "Hershel Nader",
+    "Email": "randi.pfeffer@yahoo.com",
+    "Price": 84.00,
+    "Date": "2024-06-19T19:17:18"
+}
+Request method:	POST
+Request URI:	http://bar.bagconsult.eu/api/Order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isadult": true,
+    "id": 2,
+    "typeid": 1,
+    "quantity": 4,
+    "name": "BEER TEST6001",
+    "email": "beertest61@mail.com",
+    "price": 3.0,
+    "date": 1721838637397
+}
+HTTP/1.1 201 Created
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Location: http://bar.bagconsult.eu/Order/Index/1252
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:27 GMT
+Content-Length: 160
+
+{
+    "IsAdult": true,
+    "Id": 1252,
+    "TypeId": 1,
+    "Quantity": 4,
+    "Name": "BEER TEST6001",
+    "Email": "beertest61@mail.com",
+    "Price": 13.60,
+    "Date": "2024-06-26T21:52:28.3170228+03:00"
+}
+Request method:	GET
+Request URI:	http://bar.bagconsult.eu/api/Order/1252
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	Order=1252
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:28 GMT
+Content-Length: 131
+
+{
+    "Id": 1252,
+    "TypeId": 1,
+    "Quantity": 4,
+    "Name": "BEER TEST6001",
+    "Email": "beertest61@mail.com",
+    "Price": 13.60,
+    "Date": "2024-06-26T21:52:28"
+}
+Request method:	POST
+Request URI:	http://bar.bagconsult.eu/api/Order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isadult": false,
+    "id": 2,
+    "typeid": 1,
+    "quantity": 4,
+    "name": "BEER TEST6",
+    "email": "beertest6@mail.com",
+    "price": 3.0,
+    "date": 1721838637397
+}
+HTTP/1.1 201 Created
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Location: http://bar.bagconsult.eu/Order/Index/1253
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:28 GMT
+Content-Length: 156
+
+{
+    "IsAdult": false,
+    "Id": 1253,
+    "TypeId": 1,
+    "Quantity": 4,
+    "Name": "BEER TEST6",
+    "Email": "beertest6@mail.com",
+    "Price": 13.60,
+    "Date": "2024-06-26T21:52:29.238898+03:00"
+}
+Request method:	POST
+Request URI:	http://bar.bagconsult.eu/api/Order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isadult": true,
+    "id": 2,
+    "typeid": 1,
+    "quantity": 4,
+    "name": "BEER TEST600",
+    "email": "beertest6@mail.com",
+    "price": 3.0,
+    "date": 1721838637397
+}
+HTTP/1.1 201 Created
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Location: http://bar.bagconsult.eu/Order/Index/1254
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:28 GMT
+Content-Length: 158
+
+{
+    "IsAdult": true,
+    "Id": 1254,
+    "TypeId": 1,
+    "Quantity": 4,
+    "Name": "BEER TEST600",
+    "Email": "beertest6@mail.com",
+    "Price": 13.60,
+    "Date": "2024-06-26T21:52:29.6763991+03:00"
+}
+Request method:	POST
+Request URI:	http://bar.bagconsult.eu/api/Order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "isadult": false,
+    "id": 2,
+    "typeid": 1,
+    "quantity": 4,
+    "name": "BEER TEST6",
+    "email": "beertest6!&)mailcom",
+    "price": 3.0,
+    "date": 1721838637397
+}
+HTTP/1.1 201 Created
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Location: http://bar.bagconsult.eu/Order/Index/1255
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:30 GMT
+Content-Length: 158
+
+{
+    "IsAdult": false,
+    "Id": 1255,
+    "TypeId": 1,
+    "Quantity": 4,
+    "Name": "BEER TEST6",
+    "Email": "beertest6!&)mailcom",
+    "Price": 13.60,
+    "Date": "2024-06-26T21:52:30.0826495+03:00"
+}
+Request method:	PUT
+Request URI:	http://bar.bagconsult.eu/api/Order/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	Order=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "Name": "BEER Test New"
+}
+HTTP/1.1 405 Method Not Allowed
+Allow: GET, HEAD, OPTIONS, TRACE
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:30 GMT
+Content-Length: 1293
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>405 - HTTP verb used to access this page is not allowed.</title>
+    <style type="text/css">
+&lt;!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+--&gt;
+</style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Server Error</h1>
+    </div>
+    <div id="content">
+      <div class="content-container">
+        <fieldset>
+          <h2>405 - HTTP verb used to access this page is not allowed.</h2>
+          <h3>The page you are looking for cannot be displayed because an invalid method (HTTP verb) was used to attempt access.</h3>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
+Request method:	DELETE
+Request URI:	http://bar.bagconsult.eu/api/Order/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	Order=2
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 Method Not Allowed
+Allow: GET, HEAD, OPTIONS, TRACE
+Content-Type: text/html
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Date: Wed, 26 Jun 2024 18:52:30 GMT
+Content-Length: 1293
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>405 - HTTP verb used to access this page is not allowed.</title>
+    <style type="text/css">
+&lt;!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+--&gt;
+</style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Server Error</h1>
+    </div>
+    <div id="content">
+      <div class="content-container">
+        <fieldset>
+          <h2>405 - HTTP verb used to access this page is not allowed.</h2>
+          <h3>The page you are looking for cannot be displayed because an invalid method (HTTP verb) was used to attempt access.</h3>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
