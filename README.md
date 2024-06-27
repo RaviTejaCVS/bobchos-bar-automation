@@ -3,9 +3,11 @@ The provided information below describes the structure of a project containing b
 **Directories:**
 
 **src/test/java **- This directory contains all the test case files.
+
 **Packages:**
 
 bobchos.bar.api.cucumberOptions - This package likely contains configuration files (probably related to Cucumber) for running API tests.
+
 bobchos.bar.Test - This package contains UI automation test case files.
 
 **Test Case Files (API):**
